@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (keep sample data)
+*.csv
+!data/sample_data.csv
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
